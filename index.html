@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agendamento RN Sucatas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RN SUCATAS</h1>
+        <p>Retiramos sua sucata com rapidez e segurança</p>
+    </header>
+    
+    <section class="for-section">
+        <h2>Agende sua Retirada</h2>
+        <form action="https://formsubmit.co/rafaelsucatas2020@gmail.com" method="post">
+
+            <input type="hidden" name="subject" value="novo Agendamento de sucata!">
+            <input type="hidden" name="captcha" value="false">
+
+            <label for="nome">NOME COMPLETO:</label>
+            <input type="text" name="nome" required>
+
+            <label for="">Telefone/WhatsApp</label>
+            <input type="text" name="WhatsApp" required placeholder="">
+
+            <label for="">Endereço:</label>
+            <input type="text" name="Endereço" required>
+
+            <label for="">Data desejada para retirada:</label>
+            <input type="date" name="data_retirada" required>
+
+            <label for="">Horário preferido:</label>
+            <input type="time" name="horario">
+
+            <label for="">tipo de Sucata</label>
+            <select name="tipo" id="">
+                <option value="">Bloco de motor</option>
+                <option value="">Peças automotiva</option>
+                <option value="">Ferro Fundido</option>
+                <option value="">Catalizador</option>
+                <option value="">Outros</option>
+            </select>
+
+            <label for="">Observacões</label>
+            <textarea name="obs"  rows="4" placeholder="Descrevar a sucata..."></textarea>
+
+            <button type="submit">Agendar Retirada</button>
+        </form>
+
+        <a  class="WhatsApp-btn" href="https://wa.me/5511982113727" target="_blank">Chamar no WhatsApp</a>
+
+    </section>
+
+    <footer>
+        <p>RN Sucatas . Retirada rápida e segura . Atendemos toda a região</p>
+        <p>&copy;rn sucatas automotiva</p>
+    </footer>
+</body>
+</html>
